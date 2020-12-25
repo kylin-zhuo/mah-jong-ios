@@ -3,6 +3,7 @@
 //  mah-jong-ios
 //
 //  Created by Zhuo, Lin on 12/24/20.
+//  Hello Mahjong
 //
 
 import SwiftUI
