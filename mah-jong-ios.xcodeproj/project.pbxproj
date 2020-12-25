@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BEE7FB525958EBC00B775D3 /* mah_jong_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE7FB425958EBC00B775D3 /* mah_jong_iosApp.swift */; };
+		5BEE7FB725958EBC00B775D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE7FB625958EBC00B775D3 /* ContentView.swift */; };
+		5BEE7FB925958EBE00B775D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BEE7FB825958EBE00B775D3 /* Assets.xcassets */; };
+		5BEE7FBC25958EBE00B775D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BEE7FBB25958EBE00B775D3 /* Preview Assets.xcassets */; };
+		5BEE7FC725958EBF00B775D3 /* mah_jong_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE7FC625958EBF00B775D3 /* mah_jong_iosTests.swift */; };
+		5BEE7FD225958EBF00B775D3 /* mah_jong_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE7FD125958EBF00B775D3 /* mah_jong_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BEE7FC325958EBF00B775D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BEE7FA925958EBC00B775D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BEE7FB025958EBC00B775D3;
+			remoteInfo = "mah-jong-ios";
+		};
+		5BEE7FCE25958EBF00B775D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BEE7FA925958EBC00B775D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BEE7FB025958EBC00B775D3;
+			remoteInfo = "mah-jong-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BEE7FB125958EBC00B775D3 /* mah-jong-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mah-jong-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEE7FB425958EBC00B775D3 /* mah_jong_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mah_jong_iosApp.swift; sourceTree = "<group>"; };
+		5BEE7FB625958EBC00B775D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5BEE7FB825958EBE00B775D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BEE7FBB25958EBE00B775D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BEE7FBD25958EBE00B775D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BEE7FC225958EBF00B775D3 /* mah-jong-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mah-jong-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEE7FC625958EBF00B775D3 /* mah_jong_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mah_jong_iosTests.swift; sourceTree = "<group>"; };
+		5BEE7FC825958EBF00B775D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BEE7FCD25958EBF00B775D3 /* mah-jong-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mah-jong-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEE7FD125958EBF00B775D3 /* mah_jong_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mah_jong_iosUITests.swift; sourceTree = "<group>"; };
+		5BEE7FD325958EBF00B775D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BEE7FAE25958EBC00B775D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEE7FBF25958EBF00B775D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEE7FCA25958EBF00B775D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BEE7FA825958EBC00B775D3 = {
+			isa = PBXGroup;
+			children = (
+				5BEE7FB325958EBC00B775D3 /* mah-jong-ios */,
+				5BEE7FC525958EBF00B775D3 /* mah-jong-iosTests */,
+				5BEE7FD025958EBF00B775D3 /* mah-jong-iosUITests */,
+				5BEE7FB225958EBC00B775D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BEE7FB225958EBC00B775D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BEE7FB125958EBC00B775D3 /* mah-jong-ios.app */,
+				5BEE7FC225958EBF00B775D3 /* mah-jong-iosTests.xctest */,
+				5BEE7FCD25958EBF00B775D3 /* mah-jong-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BEE7FB325958EBC00B775D3 /* mah-jong-ios */ = {
+			isa = PBXGroup;
+			children = (
+				5BEE7FB425958EBC00B775D3 /* mah_jong_iosApp.swift */,
+				5BEE7FB625958EBC00B775D3 /* ContentView.swift */,
+				5BEE7FB825958EBE00B775D3 /* Assets.xcassets */,
+				5BEE7FBD25958EBE00B775D3 /* Info.plist */,
+				5BEE7FBA25958EBE00B775D3 /* Preview Content */,
+			);
+			path = "mah-jong-ios";
+			sourceTree = "<group>";
+		};
+		5BEE7FBA25958EBE00B775D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5BEE7FBB25958EBE00B775D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5BEE7FC525958EBF00B775D3 /* mah-jong-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BEE7FC625958EBF00B775D3 /* mah_jong_iosTests.swift */,
+				5BEE7FC825958EBF00B775D3 /* Info.plist */,
+			);
+			path = "mah-jong-iosTests";
+			sourceTree = "<group>";
+		};
+		5BEE7FD025958EBF00B775D3 /* mah-jong-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BEE7FD125958EBF00B775D3 /* mah_jong_iosUITests.swift */,
+				5BEE7FD325958EBF00B775D3 /* Info.plist */,
+			);
+			path = "mah-jong-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BEE7FB025958EBC00B775D3 /* mah-jong-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BEE7FD625958EBF00B775D3 /* Build configuration list for PBXNativeTarget "mah-jong-ios" */;
+			buildPhases = (
+				5BEE7FAD25958EBC00B775D3 /* Sources */,
+				5BEE7FAE25958EBC00B775D3 /* Frameworks */,
+				5BEE7FAF25958EBC00B775D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mah-jong-ios";
+			productName = "mah-jong-ios";
+			productReference = 5BEE7FB125958EBC00B775D3 /* mah-jong-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BEE7FC125958EBF00B775D3 /* mah-jong-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BEE7FD925958EBF00B775D3 /* Build configuration list for PBXNativeTarget "mah-jong-iosTests" */;
+			buildPhases = (
+				5BEE7FBE25958EBF00B775D3 /* Sources */,
+				5BEE7FBF25958EBF00B775D3 /* Frameworks */,
+				5BEE7FC025958EBF00B775D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BEE7FC425958EBF00B775D3 /* PBXTargetDependency */,
+			);
+			name = "mah-jong-iosTests";
+			productName = "mah-jong-iosTests";
+			productReference = 5BEE7FC225958EBF00B775D3 /* mah-jong-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BEE7FCC25958EBF00B775D3 /* mah-jong-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BEE7FDC25958EBF00B775D3 /* Build configuration list for PBXNativeTarget "mah-jong-iosUITests" */;
+			buildPhases = (
+				5BEE7FC925958EBF00B775D3 /* Sources */,
+				5BEE7FCA25958EBF00B775D3 /* Frameworks */,
+				5BEE7FCB25958EBF00B775D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BEE7FCF25958EBF00B775D3 /* PBXTargetDependency */,
+			);
+			name = "mah-jong-iosUITests";
+			productName = "mah-jong-iosUITests";
+			productReference = 5BEE7FCD25958EBF00B775D3 /* mah-jong-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BEE7FA925958EBC00B775D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					5BEE7FB025958EBC00B775D3 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					5BEE7FC125958EBF00B775D3 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5BEE7FB025958EBC00B775D3;
+					};
+					5BEE7FCC25958EBF00B775D3 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5BEE7FB025958EBC00B775D3;
+					};
+				};
+			};
+			buildConfigurationList = 5BEE7FAC25958EBC00B775D3 /* Build configuration list for PBXProject "mah-jong-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BEE7FA825958EBC00B775D3;
+			productRefGroup = 5BEE7FB225958EBC00B775D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BEE7FB025958EBC00B775D3 /* mah-jong-ios */,
+				5BEE7FC125958EBF00B775D3 /* mah-jong-iosTests */,
+				5BEE7FCC25958EBF00B775D3 /* mah-jong-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BEE7FAF25958EBC00B775D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEE7FBC25958EBE00B775D3 /* Preview Assets.xcassets in Resources */,
+				5BEE7FB925958EBE00B775D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEE7FC025958EBF00B775D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEE7FCB25958EBF00B775D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BEE7FAD25958EBC00B775D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEE7FB725958EBC00B775D3 /* ContentView.swift in Sources */,
+				5BEE7FB525958EBC00B775D3 /* mah_jong_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEE7FBE25958EBF00B775D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEE7FC725958EBF00B775D3 /* mah_jong_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEE7FC925958EBF00B775D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEE7FD225958EBF00B775D3 /* mah_jong_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BEE7FC425958EBF00B775D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BEE7FB025958EBC00B775D3 /* mah-jong-ios */;
+			targetProxy = 5BEE7FC325958EBF00B775D3 /* PBXContainerItemProxy */;
+		};
+		5BEE7FCF25958EBF00B775D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BEE7FB025958EBC00B775D3 /* mah-jong-ios */;
+			targetProxy = 5BEE7FCE25958EBF00B775D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5BEE7FD425958EBF00B775D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BEE7FD525958EBF00B775D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BEE7FD725958EBF00B775D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"mah-jong-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = GP44JJC3FK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "mah-jong-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kylin-game.mah-jong-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BEE7FD825958EBF00B775D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"mah-jong-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = GP44JJC3FK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "mah-jong-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kylin-game.mah-jong-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5BEE7FDA25958EBF00B775D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GP44JJC3FK;
+				INFOPLIST_FILE = "mah-jong-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kylin-game.mah-jong-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mah-jong-ios.app/mah-jong-ios";
+			};
+			name = Debug;
+		};
+		5BEE7FDB25958EBF00B775D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GP44JJC3FK;
+				INFOPLIST_FILE = "mah-jong-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kylin-game.mah-jong-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mah-jong-ios.app/mah-jong-ios";
+			};
+			name = Release;
+		};
+		5BEE7FDD25958EBF00B775D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GP44JJC3FK;
+				INFOPLIST_FILE = "mah-jong-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kylin-game.mah-jong-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mah-jong-ios";
+			};
+			name = Debug;
+		};
+		5BEE7FDE25958EBF00B775D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GP44JJC3FK;
+				INFOPLIST_FILE = "mah-jong-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kylin-game.mah-jong-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mah-jong-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BEE7FAC25958EBC00B775D3 /* Build configuration list for PBXProject "mah-jong-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BEE7FD425958EBF00B775D3 /* Debug */,
+				5BEE7FD525958EBF00B775D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BEE7FD625958EBF00B775D3 /* Build configuration list for PBXNativeTarget "mah-jong-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BEE7FD725958EBF00B775D3 /* Debug */,
+				5BEE7FD825958EBF00B775D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BEE7FD925958EBF00B775D3 /* Build configuration list for PBXNativeTarget "mah-jong-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BEE7FDA25958EBF00B775D3 /* Debug */,
+				5BEE7FDB25958EBF00B775D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BEE7FDC25958EBF00B775D3 /* Build configuration list for PBXNativeTarget "mah-jong-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BEE7FDD25958EBF00B775D3 /* Debug */,
+				5BEE7FDE25958EBF00B775D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BEE7FA925958EBC00B775D3 /* Project object */;
+}
